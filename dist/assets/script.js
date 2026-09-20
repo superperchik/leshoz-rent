@@ -19,7 +19,7 @@ mobileMenu?.querySelectorAll('a').forEach((link) => {
 });
 
 const form = document.querySelector('.request-form');
-const formStatus = document.querySelector('.form-status');
+const formStatus = document.querySelector('.form-messege');
 
 form?.addEventListener('submit', (event) => {
   event.preventDefault();
