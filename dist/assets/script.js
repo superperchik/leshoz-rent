@@ -26,9 +26,9 @@ form?.addEventListener('submit', (event) => {
 
   if (!form.checkValidity()) {
     form.reportValidity();
-    formStatus.textContent = 'Пожалуйста, заполните обязательные поля.';
+    formStatus.textContent = 'Bitte füllen Sie alle erforderlichen Felder aus.';
     return;
   }
 
-  formStatus.textContent = 'Спасибо! Это демонстрационная форма — данные никуда не отправлены.';
+  formStatus.textContent = 'Vielen Dank! Dies ist eine Demo-Formular — die Daten werden nicht gesendet.';
 });

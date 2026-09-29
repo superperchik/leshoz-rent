@@ -1,207 +1,414 @@
 <!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Аренда лесозаготовительной техники с оператором по Северо-Западу России.">
-  <meta name="theme-color" content="#153d2f">
-  <title>ЛесХод — аренда лесной техники</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23153d2f'/%3E%3Cpath d='M32 8 16 31h10L14 49h36L38 31h10z' fill='%23d69b45'/%3E%3Cpath d='M29 45h6v11h-6z' fill='%23f4f0e7'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/script.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">К содержанию</a>
+<html lang="at">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vermietung von Forstmaschinen mit Operator und Lieferung. Harvester, Forwarder und Mulcher für die Forstwirtschaft, Wegaufklärung und Flächenpflege."
+    />
+    <title>Waldschritt — Vermietung von Forstmaschinen</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23153d2f'/%3E%3Cpath d='M32 8 16 31h10L14 49h36L38 31h10z' fill='%23d69b45'/%3E%3Cpath d='M29 45h6v11h-6z' fill='%23f4f0e7'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt</a>
 
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="ЛесХод — на главную">
-        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
-          <path d="M24 3 12 22h7L9 37h30L29 22h7L24 3Z" fill="currentColor"/>
-          <path d="M22 34h4v11h-4z" fill="#d69b45"/>
-        </svg>
-        <span>Лес<span>Ход</span></span>
-      </a>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Waldschritt — zur Hauptseite">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 3 12 22h7L9 37h30L29 22h7L24 3Z" fill="currentColor" />
+            <path d="M22 34h4v11h-4z" fill="#d69b45" />
+          </svg>
+          <span>Wald<span>Schritt</span></span>
+        </a>
 
-      <nav class="desktop-nav" aria-label="Основная навигация">
-        <a href="#fleet">Техника</a>
-        <a href="#about">О компании</a>
-        <a href="#advantages">Преимущества</a>
-        <a href="#contacts">Контакты</a>
-      </nav>
+        <nav class="desktop-nav" aria-label="Hauptnavigation">
+          <a href="#fleet">Technik</a>
+          <a href="#about">Über uns</a>
+          <a href="#advantages">Vorteile</a>
+          <a href="#contacts">Kontakte</a>
+        </nav>
 
-      <div class="header-contats">
-        <span>Ежедневно, 08:00–20:00</span>
-        <a href="tel:+78124000072">+7 (812) 400-00-72</a>
-      </div>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-    <div class="mobile-menu" id="mobile-menu" hidden>
-      <nav aria-label="Мобильная навигация">
-        <a href="#fleet">Техника</a>
-        <a href="#about">О компании</a>
-        <a href="#advantages">Преимущества</a>
-        <a href="#contacts">Контакты</a>
-        <a class="mobile-phone" href="tel:+78124000072">+7 (812) 400-00-72</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-image" role="img" aria-label="Лесозаготовительная машина работает в лесу"></div>
-      <div class="hero-shade"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Техника с оператором · Северо-Запад</p>
-        <h1 id="hero-title">Работаем там,<br>где обычная техника<br><em>не проходит</em></h1>
-        <p class="hero-copy">Харвестеры, форвардеры и мульчеры для заготовки леса, расчистки просек и ухода за участком.</p>
-        <div class="hero-buttons-box">
-          <a class="button button-primary" href="#request">Рассчитать аренду</a>
-          <a class="button button-ghost" href="#fleet">Выбрать технику <span aria-hidden="true">↓</span></a>
+        <div class="header-contats">
+          <span> täglich, 08:00–20:00</span>
+          <a href="tel:+438124000072">+43 (812) 400-00-72</a>
         </div>
-      </div>
-      <div class="hero-stats" aria-label="Ключевые показатели">
-        <div><strong>12</strong><span>машин в парке</span></div>
-        <div><strong>24/7</strong><span>выезд на объект</span></div>
-        <div><strong>8 лет</strong><span>работы в лесу</span></div>
-      </div>
-    </section>
 
-    <section class="section fleet" id="fleet" aria-labelledby="fleet-title">
-      <div class="container">
-        <div class="secton-heading">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Menü öffnen"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav aria-label="Mobile Navigation">
+          <a href="#fleet">Technik</a>
+          <a href="#about">Über uns</a>
+          <a href="#advantages">Vorteile</a>
+          <a href="#contacts">Kontakte</a>
+          <a class="mobile-phone" href="tel:+438124000072"
+            >+43 (812) 400-00-72</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Waldschritt — eine Holzernte-Maschine arbeitet im Wald"
+        ></div>
+        <div class="hero-shade"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Technik mit Operator · Nordwest</p>
+          <h1 id="hero-title">
+            Wir arbeiten dort,<br />wo normale Technik<br /><em
+              >nicht durchkommt</em
+            >
+          </h1>
+          <p class="hero-copy">
+            Harvester, Forwarder und Mulcher für die Forstwirtschaft, die
+            Wegaufklärung und die Flächenpflege.
+          </p>
+          <div class="hero-buttons-box">
+            <a class="button button-primary" href="#request"
+              >Angebot anfragen</a
+            >
+            <a class="button button-ghost" href="#fleet"
+              >Technik auswählen <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Schlüsselindikatoren">
+          <div><strong>12</strong><span>Maschinen in der Flotte</span></div>
+          <div><strong>24/7</strong><span>Ausfahrt zum Objekt</span></div>
           <div>
-            <p class="section-index">01 / Парк техники</p>
-            <h2 id="fleet-title">Машины под задачу,<br>а не наоборот</h2>
-          </div>
-          <p>Подберём комплект техники под рельеф, породу леса и объём работ. Доставим тралом и выведем на объект в согласованную смену.</p>
-        </div>
-
-        <div class="fleet-grid">
-          <article class="machine-card machine-card-featured">
-            <div class="machine-numbr">01</div>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 42h31l5-16h7M17 42l5-17h22l5 17M21 21h18v4H21zM17 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm25 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z"/></svg>
-            <h3>Харвестеры</h3>
-            <p>Валка, обрезка сучьев и раскряжёвка стволов за один рабочий цикл.</p>
-            <ul><li>от 42 000 ₽ / смена</li><li>оператор включён</li></ul>
-          </article>
-          <article class="machine-card">
-            <div class="machine-numbr">02</div>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 41h43V25H29l-6-9h-9v25m37-11h7v11h-7M14 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm31 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z"/></svg>
-            <h3>Форвардеры</h3>
-            <p>Сбор сортимента и бережная трелёвка до погрузочной площадки.</p>
-            <ul><li>от 38 000 ₽ / смена</li><li>грузоподъёмность до 15 т</li></ul>
-          </article>
-          <article class="machine-card">
-            <div class="machine-numbr">03</div>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40h38l-4-16H20l-4 16m32-7h7l3 7H48M15 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm27 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0ZM27 24l4-10h12"/></svg>
-            <h3>Мульчеры</h3>
-            <p>Расчистка просек, полос отвода и участков от кустарника и порубочных остатков.</p>
-            <ul><li>от 35 000 ₽ / смена</li><li>ширина захвата до 2,4 м</li></ul>
-          </article>
-        </div>
-        <p class="price-note">* Стоимость ориентировочная и зависит от удалённости объекта, срока аренды и условий работы.</p>
-      </div>
-    </section>
-
-    <section class="section about" id="about" aria-labelledby="about-title">
-      <div class="container about-grid">
-        <div class="about-photo">
-          <img src="assets/images/logs.jpg" alt="Заготовленные брёвна, сложенные в штабель" loading="lazy" width="1280" height="853">
-          <div class="about-badge"><strong>120+</strong><span>объектов<br>завершено</span></div>
-        </div>
-        <div class="about-copy">
-          <p class="section-index">02 / О компании</p>
-          <h2 id="about-title">Знаем лес<br>изнутри</h2>
-          <p class="about-lead">«ЛесХод» — команда механизаторов, инженеров и логистов из Ленинградской области.</p>
-          <p>Работаем с лесозаготовителями, дорожными подрядчиками и владельцами участков. Перед выходом осматриваем площадку, оцениваем подъезды и предлагаем технику без лишнего запаса по мощности.</p>
-          <div class="aboutFacts_box">
-            <div><strong>2018</strong><span>год основания</span></div>
-            <div><strong>4 региона</strong><span>география выездов</span></div>
+            <strong>8 Jahre</strong><span>Arbeit in der Forstwirtschaft</span>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section advantages" id="advantages" aria-labelledby="advantages-title">
-      <div class="container">
-        <p class="section-index light">03 / Почему мы</p>
-        <div class="advantages-heading">
-          <h2 id="advantages-title">Техника должна работать.<br>Не ждать.</h2>
-          <p>Берём на себя всё от доставки до сервисной поддержки на объекте.</p>
-        </div>
-        <div class="advatage-list">
-          <article><span>01</span><h3>Своя техника</h3><p>Парк без посредников. Знаем историю и состояние каждой машины.</p></article>
-          <article><span>02</span><h3>Опытные операторы</h3><p>Механизаторы со стажем от пяти лет и допусками к работам.</p></article>
-          <article><span>03</span><h3>Мобильный сервис</h3><p>Сервисная бригада и запас расходников выезжают прямо на делянку.</p></article>
-          <article><span>04</span><h3>Честная смена</h3><p>Фиксируем моточасы и заранее согласуем все дополнительные расходы.</p></article>
-        </div>
-      </div>
-    </section>
+      <section class="section fleet" id="fleet" aria-labelledby="fleet-title">
+        <div class="container">
+          <div class="secton-heading">
+            <div>
+              <p class="section-index">01 / Technik</p>
+              <h2 id="fleet-title">
+                Maschinen für die Aufgabe,<br />nicht umgekehrt
+              </h2>
+            </div>
+            <p>
+              Wir wählen die passende Technik für Gelände, Holzart und
+              Arbeitsvolumen. Wir liefern mit dem Anhänger und bringen die
+              Maschine in der vereinbarten Schicht an den Einsatzort.
+            </p>
+          </div>
 
-    <section class="section clients" aria-labelledby="clients-title">
-      <div class="container">
-        <div class="secton-heading compact">
-          <div><p class="section-index">04 / Нам доверяют</p><h2 id="clients-title">Работаем в одной связке</h2></div>
-          <blockquote>«ЛесХод вывел форвардер на объект за сутки. Отработали без простоев и уложились в план по вывозке».<cite>— Алексей Орлов, начальник участка «СеверЛес»</cite></blockquote>
+          <div class="fleet-grid">
+            <article class="machine-card">
+              <div class="machine-numbr">01</div>
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path
+                  d="M12 42h31l5-16h7M17 42l5-17h22l5 17M21 21h18v4H21zM17 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm25 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z"
+                />
+              </svg>
+              <h3>Harvester</h3>
+              <p>
+                Effiziente Waldarbeit, Entastung und Aufbereitung im selben
+                Arbeitsgang.
+              </p>
+              <ul>
+                <li>ab 42 000 € / Schicht</li>
+                <li>Operator inklusive</li>
+              </ul>
+            </article>
+            <article class="machine-card machine-card-featured">
+              <div class="machine-numbr">02</div>
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path
+                  d="M8 41h43V25H29l-6-9h-9v25m37-11h7v11h-7M14 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm31 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z"
+                />
+              </svg>
+              <h3>Forwarder</h3>
+              <p>
+                Die Kernmaschine für Transport, Auslagerung und reibungslose
+                Holzlogistik im Gelände.
+              </p>
+              <ul>
+                <li>ab 38 000 € / Schicht</li>
+                <li>Beladung bis zu 15 t</li>
+                <li>Logistik ohne Verzögerung</li>
+              </ul>
+            </article>
+            <article class="machine-card">
+              <div class="machine-numbr">03</div>
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path
+                  d="M10 40h38l-4-16H20l-4 16m32-7h7l3 7H48M15 48a6 6 0 1 0 12 0 6 6 0 0 0-12 0Zm27 0a6 6 0 1 0 12 0 6 6 0 0 0-12 0ZM27 24l4-10h12"
+                />
+              </svg>
+              <h3>Mulcher</h3>
+              <p>
+                Reinigung von Flächen, Beseitigung von Sträuchern und
+                Baumrestholz.
+              </p>
+              <ul>
+                <li>ab 35 000 € / Schicht</li>
+                <li>Arbeitsbreite bis zu 2,4 m</li>
+              </ul>
+            </article>
+          </div>
+          <p class="price-note">
+            * Die Kosten sind schätzungweise und hängen von der Entfernung des
+            Objekts, der Mietdauer und den Arbeitsbedingungen ab.
+          </p>
         </div>
-        <div class="logo-row" aria-label="Клиенты компании">
-          <span>СЕВЕР<span>ЛЕС</span></span>
-          <span>КАРЕЛ<span>ДОР</span></span>
-          <span>ТЕРРА<span>ПРО</span></span>
-          <span>ЛАДОГА<span>СТРОЙ</span></span>
-          <span>WOOD<span>LINE</span></span>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section request" id="request" aria-labelledby="request-title">
-      <div class="container request-wraper">
-        <div>
-          <p class="section-index light">05 / Заявка</p>
-          <h2 id="request-title">Опишите задачу —<br>мы подберём машину</h2>
-          <p>Перезвоним в течение рабочего часа, уточним условия на объекте и подготовим расчёт.</p>
-          <div class="request-phone"><span>Или позвоните напрямую</span><a href="tel:+78124000072">+7 (812) 400-00-72</a></div>
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-photo">
+            <img
+              src="assets/images/logs.jpg"
+              alt="Zugelieferte Bäume, gestapelt in einem Stapel"
+              loading="lazy"
+              width="1280"
+              height="853"
+            />
+            <div class="about-badge">
+              <strong>120+</strong><span>Objekte<br />abgeschlossen</span>
+            </div>
+          </div>
+          <div class="about-copy">
+            <p class="section-index">02 / Über uns</p>
+            <h2 id="about-title">Wir kennen den Wald<br />von innen</h2>
+            <p class="about-lead">
+              Waldschritt ist ein Team aus Maschinenführern, Ingenieuren und
+              Logistikern aus der Leningrader Region.
+            </p>
+            <p>
+              Wir arbeiten mit Holzfällern, Straßenbauunternehmen und
+              Grundstückseigentümern zusammen. Vor Beginn der Arbeiten
+              inspizieren wir das Gelände, beurteilen die Zufahrtsmöglichkeiten
+              und wählen die passende Technik für die konkreten Bedingungen aus.
+            </p>
+            <div class="aboutFacts_box">
+              <div><strong>2018</strong><span>Gründungsjahr</span></div>
+              <div>
+                <strong>4 Regionen</strong
+                ><span>Geographie der Ausfahrten</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <form class="request-form" novalidate>
-          <div class="field"><label for="name">Ваше имя</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Иван" required></div>
-          <div class="field"><label for="phone">Телефон</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 999 000-00-00" required></div>
-          <div class="field field-wide"><label for="task">Что нужно сделать?</label><textarea id="task" name="task" rows="3" placeholder="Например: расчистить 12 га в Приозерском районе"></textarea></div>
-          <label class="consent"><input type="checkbox" required><span>Согласен на обработку персональных данных</span></label>
-          <button class="button button-accent" type="submit">Получить расчёт <span aria-hidden="true">→</span></button>
-          <p class="form-messege" role="status" aria-live="polite"></p>
-        </form>
-      </div>
-    </section>
+      </section>
 
-    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
-      <div class="container contacts-grid">
-        <div>
-          <p class="section-index">06 / Контакты</p>
-          <h2 id="contacts-title">На связи<br>каждый день</h2>
+      <section
+        class="section advantages"
+        id="advantages"
+        aria-labelledby="advantages-title"
+      >
+        <div class="container">
+          <p class="section-index light">03 / Warum wir</p>
+          <div class="advantages-heading">
+            <h2 id="advantages-title">
+              Die Technik muss funktionieren.<br />Nicht warten.
+            </h2>
+            <p>
+              Wir übernehmen alles von der Lieferung bis zur
+              Serviceunterstützung auf der Baustelle.
+            </p>
+          </div>
+          <div class="advatage-list">
+            <article>
+              <span>01</span>
+              <h3>Unsere Technik</h3>
+              <p>
+                Der Maschinenpark ohne Mittelsmann: Wir kennen die Geschichte
+                und den Zustand jeder Maschine.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Erprobte Operatoren</h3>
+              <p>
+                Mechaniker mit mindestens fünf Jahren Erfahrung und
+                entsprechender Zulassung für die Arbeit.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Mobiler Service</h3>
+              <p>
+                Das Serviceteam und der Vorrat an Verbrauchsmaterialien werden
+                direkt auf die Baustelle geliefert.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Transparente Abrechnung</h3>
+              <p>
+                Wir dokumentieren die Arbeitsstunden und vereinbaren alle
+                Zusatzkosten im Voraus.
+              </p>
+            </article>
+          </div>
         </div>
-        <div class="contact-block"><span>Телефон</span><a href="tel:+78124000072">+7 (812) 400-00-72</a></div>
-        <div class="contact-block"><span>Почта</span><a href="mailto:rent@leshod.ru">rent@leshod.ru</a></div>
-        <div class="contact-block"><span>База</span><address>Ленинградская область,<br>г. Всеволожск, Южное ш., 138</address></div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-top">
-      <a class="brand brand-footer" href="#top"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3 12 22h7L9 37h30L29 22h7L24 3Z" fill="currentColor"/><path d="M22 34h4v11h-4z" fill="#d69b45"/></svg><span>Лес<span>Ход</span></span></a>
-      <p>Аренда лесозаготовительной техники<br>с оператором и доставкой.</p>
-      <a class="to-top" href="#top">Наверх <span aria-hidden="true">↑</span></a>
-    </div>
-    <div class="container footer-botom">
-      <span>© 2026 ООО «ЛесХод»</span>
-      <span>Информация на сайте не является публичной офертой</span>
-      <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Фото: Pixabay</a>
-    </div>
-  </footer>
-</body>
+      <section class="section clients" aria-labelledby="clients-title">
+        <div class="container">
+          <div class="secton-heading compact">
+            <div>
+              <p class="section-index">04 / Warum wir</p>
+              <h2 id="clients-title">Wir arbeiten im Verbund</h2>
+            </div>
+            <blockquote>
+              "Waldschritt hat den Forwarder innerhalb von 24 Stunden zum
+              Einsatzort gebracht. Die Arbeit wurde ohne Leerlauf erledigt, und
+              der Plan für die Abfuhr wurde eingehalten."<cite
+                >— John Malkovich, Vorarbeiter bei der Holzernte.</cite
+              >
+            </blockquote>
+          </div>
+          <div class="logo-row" aria-label="Kunden der Firma">
+            <span>Nord<span>Wald</span></span>
+            <span>KAREL<span>DOR</span></span>
+            <span>TERRA<span>PRO</span></span>
+            <span>LADOGA<span>BAUEN</span></span>
+            <span>WOOD<span>LINE</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section request"
+        id="request"
+        aria-labelledby="request-title"
+      >
+        <div class="container request-wraper">
+          <div>
+            <p class="section-index light">05 / Anfrage</p>
+            <h2 id="request-title">
+              Beschreiben Sie die Aufgabe —<br />wir finden die passende
+              Maschine
+            </h2>
+            <p>
+              Wir rufen Sie innerhalb einer Stunde zurück, klären die
+              Bedingungen am Objekt und erstellen ein Angebot.
+            </p>
+            <div class="request-phone">
+              <span>oder rufen Sie uns direkt an</span
+              ><a href="tel:+438124000072">+43 (812) 400-00-72</a>
+            </div>
+          </div>
+          <form class="request-form" novalidate>
+            <div class="field">
+              <label for="name">Ihr Name</label
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                placeholder="Ivan"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="phone">Telefon</label
+              ><input
+                id="phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                placeholder="+43 999 000-00-00"
+                required
+              />
+            </div>
+            <div class="field field-wide">
+              <label for="task">Was muss gemacht werden?</label
+              ><textarea
+                id="task"
+                name="task"
+                rows="3"
+                placeholder="Zum Beispiel: 12 Hektar in der Priozersk Region freiräumen"
+              ></textarea>
+            </div>
+            <label class="consent"
+              ><input type="checkbox" required /><span
+                >Ich stimme der Verarbeitung meiner personenbezogenen Daten
+                zu</span
+              ></label
+            >
+            <button class="button button-accent" type="submit">
+              Kostenvoranschlag erhalten <span aria-hidden="true">→</span>
+            </button>
+            <p class="form-messege" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="container contacts-grid">
+          <div>
+            <p class="section-index">06 / Kontakte</p>
+            <h2 id="contacts-title">
+              In Kontakt<br />
+              jeden Tag
+            </h2>
+          </div>
+          <div class="contact-block">
+            <span>Telefon</span
+            ><a href="tel:+438124000072">+43 (812) 400-00-72</a>
+          </div>
+          <div class="contact-block">
+            <span>E-Mail</span
+            ><a href="mailto:rent@waldschritt.ru">rent@waldschritt.ru</a>
+          </div>
+          <div class="contact-block">
+            <span>Standort</span>
+            <address>Werk-VI-Straße 46, 8605 Kapfenberg</address>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand brand-footer" href="#top"
+          ><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 3 12 22h7L9 37h30L29 22h7L24 3Z" fill="currentColor" />
+            <path d="M22 34h4v11h-4z" fill="#d69b45" /></svg
+          ><span>Wald<span>Schritt</span></span></a
+        >
+        <p>Vermietung von Forstmaschinen<br />mit Bediener und Lieferung.</p>
+        <a class="to-top" href="#top"
+          >An den Anfang <span aria-hidden="true">↑</span></a
+        >
+      </div>
+      <div class="container footer-botom">
+        <span>© 2026 ООО Waldschritt</span>
+        <span
+          >Die Informationen auf der Website sind keine Vertragsgrundlage.</span
+        >
+        <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer"
+          >Foto: Pixabay</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
